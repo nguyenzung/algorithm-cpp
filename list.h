@@ -56,7 +56,7 @@ class List {
             
         bool operator==(const Iterator& iterator) { return ptr == iterator.ptr; }
      
-        Node* operator*() { return ptr; }
+        T operator*() { return ptr->value(); }
     };
     
 protected:

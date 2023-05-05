@@ -16,7 +16,7 @@ int main()
     mylist.push_front(0);
     
     for(auto it = mylist.begin(); it != mylist.end(); ++it){
-        cout << (*it)->value() << endl;
+        cout << (*it) << endl;
     }
     
     return 0;
